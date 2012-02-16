@@ -1,0 +1,21 @@
+/**= require_self*/
+
+@import "bootstrap";
+@import "bourbon";
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#main {
+  overflow: auto;
+  padding: 1%;
+}
+
+input[type="button"], input[type="reset"], input[type="submit"] {
+  display: block;
+}
+
+@import "home";
+@import "users";
