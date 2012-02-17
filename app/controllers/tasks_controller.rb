@@ -5,8 +5,8 @@ class TasksController < ApplicationController
   
   def create
     if (params[:task])
-      Task.create(params[:task])
-      TaskMailer.new_task.deliver
+      @task = Task.create(params[:task])
+      TaskMailer.new_task(@task).deliver
       redirect_to :root
     end
   end
