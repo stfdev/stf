@@ -2,6 +2,12 @@
 %html
   %head
     %meta{ :content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type" }
-  %body    
-    %h2= @task.title
+  %body
+    %h3 Task Info:
+    %p= @task.title
     %p= @task.description
+    
+    %h3 Customer Info:
+    %p= "#{@task.first_name} #{@task.last_name}"
+    %p= "Phone: #{@task.phone}"
+    %p= "Email: #{@task.email}"
