@@ -5,6 +5,8 @@
   = f.text_field :title
   
   = f.label :description
+  %p.help-block Write a brief description of the task including the date and time you need it done and how much you are willing to pay for it.
+  
   = f.text_area :description
   
   = f.label :first_name
@@ -19,4 +21,4 @@
   = f.label :email
   = f.text_field :email
   
-  = f.submit "Post Task"
+  = f.submit "Post Task", { :class => "btn-large btn-primary" }

@@ -1,22 +1,17 @@
 // Home
 
-h1 {
-  text-align: center;
-}
 
-#steps {
-  margin: 2em 0;
-}
 
-.step {
-  width: 33.33333%;
-  float: left;
-  text-align: center;
+p { width: 50%; }
+
+form {
+  margin-top: 2em;
   
-  p {
-    text-align: center;
-    font-size: 1.4em;
-    line-height: 1.3em;
+  label {
+    margin-top: 1em;
   }
   
+  .help-block {
+    width: 30%;
+  }
 }
