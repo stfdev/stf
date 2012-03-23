@@ -1,8 +1,8 @@
 // Home
 
-
-
-p { width: 50%; }
+#main > p, .step > p {
+  font-size: 1.2em;
+}
 
 form {
   margin-top: 2em;
@@ -13,5 +13,28 @@ form {
   
   .help-block {
     width: 30%;
+  }
+}
+
+.step {
+  margin-top: 2em;
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+#post {
+  margin-left: 3em;
+}
+
+#about {
+  h3 {
+    margin-bottom: .5em;
+  }
+  
+  p {
+    width: 50%;
+    font-size: 1.2em;
+    margin-bottom: 2em;
   }
 }
